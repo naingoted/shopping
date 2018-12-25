@@ -1,7 +1,6 @@
-const Sell = props => (
-    <div>
-      <p>Sell!</p>
-    </div>
-  );
+import CreateItem from '../components/CreateItem';
+
+const Sell = props => 
+      <CreateItem />
   
   export default Sell;
