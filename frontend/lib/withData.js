@@ -1,5 +1,5 @@
 import withApollo from 'next-with-apollo';
-import ApolloClient from 'apollo-boost';
+import ApolloClient from 'apollo-boost'; // handle error state http
 import { endpoint } from '../config';
 
 function createClient({ headers }) {
